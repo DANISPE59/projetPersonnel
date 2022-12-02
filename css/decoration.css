@@ -1,0 +1,71 @@
+body{
+  font-size: 25px;
+  margin:10px;
+  font: 400 15px/1.8 "Lato", sans-serif;
+    background-image: url(../image/fondeco1.jpg), url(../image/fonddec.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size:contain;
+  }
+
+  #connect{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #383938;
+    font-size: 20px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+
+
+#titre{
+font-style: oblique;
+color: rgb(38, 38, 37);
+margin-left: 10%;
+margin-bottom: 40%;
+
+}
+h1{
+  font-size: 50px;
+  font-weight: bolder;
+  }
+p{
+    margin: 50px ;
+    font-size: larger;
+}
+
+#image{
+    display: flex;
+    flex-direction: row; 
+    justify-content:space-around; 
+}
+
+h2{
+    background-color: #83847e;
+}
+img{
+  border-radius: 8px
+}
+

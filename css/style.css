@@ -1,0 +1,18 @@
+body {
+    width : 80%;
+    margin: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+     sans-serif;
+     background-color: #c8d2a2;
+}
+h1 {
+    font-size: 30pt;
+    font-family: inherit;
+    text-align: right;
+}
+
+
+img {
+    image-orientation: center;
+    height: auto;
+}
