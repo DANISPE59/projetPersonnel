@@ -1,1 +1,5 @@
-# projetPersonnel
+# Mes Créations 
+Durant ma formation 1formation=1job à la Nursery Informatique, j'ai découvert les métiers de l'informatique. J'ai réalisé un projet en groupe Safe&Sound, mais je voulais également faire quelque chose de personnel.
+Dans ce site web , j'ai voulu regrouper les différentes activités que j'ai réalisées: couture , bricolage, décaration, cosmétique...
+
+J'aime découvrir, explorer, apprendre ...
