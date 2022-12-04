@@ -37,25 +37,128 @@ ul {
     background-color: #111;
   }
 
-#titre{
-font-style: oblique;
-color: rgb(37, 47, 20);
-margin: 50px;
-margin-left: 10%;
+/* titre  */
+#container1{
+    margin-top: 28%;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: antiquewhite;
+    
+}
+h1{
+  font-style: oblique;  
+  font-size: 50px;
+  font-weight: bolder;
+  padding-left: 35px;
+  
+  }
+
+
+
+/* slide galleria */
+* {
+  box-sizing: border-box;
 }
 
-h1{
-font-size: 60px;
-font-weight: bolder;
+img {
+  vertical-align: middle;
 }
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+
 
 h2{
   font-size: 35px; 
   color: antiquewhite;
   background-color: #383938;
+  padding-left: 30px;
+  margin-top: 30px;
 }
 p{
-  margin: 50px ;
+  margin-left: 40px ;
   font-size: 20px;
   text-align: justify;
 }
@@ -104,3 +207,11 @@ p{
 }
 
 
+#lingette{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.lingtext{
+  width: 50%;
+}

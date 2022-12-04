@@ -6,13 +6,11 @@ body{
     background-repeat: no-repeat, repeat;
     background-size:contain;
   }
-
   #connect{
     display: flex;
     flex-direction: row;
     justify-content:flex-end;
 }
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -20,12 +18,11 @@ ul {
     overflow: hidden;
     background-color: #383938;
     font-size: 20px;
-  }
-  
+  }  
   li {
     float: left;
-  }
-  
+  } 
+ 
   li a {
     display: block;
     color: white;
@@ -33,7 +30,6 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
   li a:hover {
     background-color: #111;
   }
@@ -45,7 +41,6 @@ font-style: oblique;
 color: rgb(38, 38, 37);
 margin-left: 10%;
 margin-bottom: 40%;
-
 }
 h1{
   font-size: 50px;
@@ -55,7 +50,6 @@ p{
     margin: 50px ;
     font-size: larger;
 }
-
 #image{
     display: flex;
     flex-direction: row; 
@@ -63,7 +57,10 @@ p{
 }
 
 h2{
-    background-color: #83847e;
+  font-size: 35px; 
+  color: antiquewhite;
+  background-color: #383938;
+  padding-left: 30px;
 }
 img{
   border-radius: 8px
