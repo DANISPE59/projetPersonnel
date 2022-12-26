@@ -1,6 +1,4 @@
 body {
-      font-size: 25px;
-      margin:10px;
       font: 400 15px/1.8 "Lato", sans-serif;
       background-image: url(../image/fondcout2.jpg), url(../image/fondcout3.jpg);
       background-repeat: no-repeat, repeat;
@@ -10,6 +8,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content:flex-end;
+  font-size: 18px;
+  padding-bottom: 1%;
 }
 
 ul {
@@ -155,9 +155,6 @@ img {
   padding: 50px 0;
   text-align: center;
 }
-
-
-
 
 h2{
   font-size: 35px; 
