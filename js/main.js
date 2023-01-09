@@ -1,11 +1,4 @@
 
-// Presse un bouton une photo apparaît mais ne disparait pas:
-let photo = document.querySelector("#photo");
-
-function showPhoto() {
-    photo.innerHTML = `<img src="image/ventedeNoël.jpg" alt="couture" width="300" height="auto">`
-}
-
 // <!-- bouton qui affiche une photo et  qui l'enleve -->
 function myFunction() {
   var x = document.getElementById("myDIV");
