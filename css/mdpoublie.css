@@ -1,0 +1,60 @@
+body{
+    background-color: #f0f6f8;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;   
+    }
+
+    h1{
+
+        font-size: 2em;
+        text-align: center;
+        margin-top: 3%;
+        margin-left: 4%;
+        }
+
+    
+    #mdpo{
+        background-color:  white;
+        border: solid 2px #0e3240;
+        border-radius: 10px;
+        height: 250px;
+        width: 850px;
+        text-align: center;
+        margin: auto; 
+        margin-top: 4%;
+        padding-top: 3%;
+        font-size: 23px;
+        
+    }
+    
+    .agrandir
+    {
+        width: 400px;
+        height: 30px;
+        border: solid 2px #0e3240;
+        border-radius: 10px;
+    }
+    
+    .agrandir1
+    {
+        width: 200px;
+        height: 30px;
+        border: solid 2px #0e3240;
+        border-radius: 10px;
+    }
+    
+    #lien a:link {
+        color: rgb(53, 52, 52);
+        text-decoration: none;
+        }
+    #lien a:visited{
+        color: rgb(55, 54, 54);
+        text-decoration: none;
+        } 
+    #lien a:hover {
+        color: rgb(246, 79, 18);
+        text-decoration: none;
+        }
+    
+    
+

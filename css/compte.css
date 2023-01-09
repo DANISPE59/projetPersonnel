@@ -1,0 +1,39 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f0f6f8;
+    font-size: 25px;
+}
+h1{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 3%;
+    }
+
+#compte{
+    background-color:  white;
+    border: solid 2px #0e3240;
+    border-radius: 10px;
+    height: 500px;
+    width: 650px;
+    text-align: center;
+    margin-left:320px;
+}
+
+.agrandir{
+    width: 300px;
+    height: 30px;
+    border: solid 2px #0e3240;
+    border-radius: 10px;
+}
+.prenom{
+    margin-left: 50px;
+}
+.nom{
+    margin-left: 75px;
+}
+.email{
+    margin-left: 65px;
+}
+input[type=checkbox] {
+    accent-color: red;
+}
