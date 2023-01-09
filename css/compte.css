@@ -1,12 +1,45 @@
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font: 400 15px/1.8 "Lato", sans-serif;
     background-color: #f0f6f8;
-    font-size: 25px;
 }
+
+#connect{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    font-size: 18px;
+    }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #383938;
+    font-size: 20px;
+    }
+    
+li {
+    float: left;
+    }
+    
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+li a:hover {
+    background-color: #111;
+    }
+
 h1{
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
     margin-top: 3%;
+    margin-left: 4%;
     }
 
 #compte{
@@ -17,6 +50,7 @@ h1{
     width: 650px;
     text-align: center;
     margin-left:320px;
+    font-size: 20px;
 }
 
 .agrandir{
