@@ -3,7 +3,7 @@ body {
   background-color : #b6b6ac ;
   font-size: 25px;
   margin:10px;
-  font: 400 15px/1.8 "Lato", sans-serif;
+  font: 400 20px/1.8 "Lato", sans-serif;
 }
 
 #connect{
@@ -15,7 +15,7 @@ body {
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: none; /*la puce ne sera pas affiché none*/
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -87,7 +87,7 @@ body,html {
   color: #fff;
   padding: 18px;
   font-size: 25px;
-  letter-spacing: 10px;
+  letter-spacing: 10px; /*augmente l'espace entre les caractères, word-spacing entre les mots*/
 }
 
 h3 {
