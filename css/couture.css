@@ -37,6 +37,39 @@ ul {
     background-color: #111;
   }
 
+
+/* menu vertical */
+.vertical-menu {
+  width: 400px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: flex;
+  flex-direction: column;
+
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+#navbar{
+  display: block;
+}
+
+
+
+
 /* titre  */
 #container1{
     margin-top: 28%;
