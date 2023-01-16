@@ -89,9 +89,18 @@
 
     <h2> Cabane des poules</h2>
         <p> <img src="image/cabanepoule.jpg" alt="cabane" style="width:370px;height:370px;margin-left:15px; float: right; border-radius: 8px" > </br> Réalisation d’un poulailler pour accueillir de belles poules pondeuses et avoir de bons oeufs bien frais chaque jour. </p>
-        <video controls="controls">
+        
+        <!-- VIDEO PLEIN ECRAN AVEC JAVASCRIPT -->
+            <button onclick="openFullscreen();">Ouvrir la vidéo de mes trois poules en mode plein écran.</button>
+            
+
+        <video width="100%" controls id="myvideo">
+            <source src="image/poules.MOV" alt="video de poule">
+        </video>    
+        
+        <!-- <video controls="controls">
         <source src="image/poules.MOV" alt="video des poules" width="50" height="50">
-        </video> 
+        </video>  -->
 
     <h2> Remise en état de sièges de bar </h2>
         <p> Récupération de chaises hautes,  remise en état de l’assise avec un cuir recyclé.
