@@ -36,7 +36,7 @@ ul {
   }
 
   .active {
-  background-color: #5cd01d;
+  background-color: #5ea4b4;
   color: white;
 }
 
@@ -68,7 +68,7 @@ ul {
 font-style: oblique;
 margin-left: 10%;
 margin-bottom: 16%;
-margin-top: 28%;
+margin-top: 14%;
 background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
 color: antiquewhite;
 }
