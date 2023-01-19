@@ -41,15 +41,16 @@ ul {
 /* menu vertical */
 .vertical-menu {
   width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
 }
 
 .vertical-menu a {
   background-color: #eee;
   color: black;
-  display: flex;
-  flex-direction: column;
-
-  padding: 12px;
+  margin-left: 96px;
+  padding: 2px;
   text-decoration: none;
 }
 
@@ -57,22 +58,20 @@ ul {
   background-color: #ccc;
 }
 
-.vertical-menu a.active {
-  background-color: #04AA6D;
+.active {
+  background-color: #86ac71;
   color: white;
 }
 
-
-#navbar{
-  display: block;
+/* lien du menu déroulant smooth scroll*/
+#section1, #section2, #section3, #section4{
+  height: 600px;
 }
-
-
 
 
 /* titre  */
 #container1{
-    margin-top: 28%;
+    margin-top: 15%;
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: antiquewhite;
     
@@ -195,7 +194,7 @@ h2{
   color: antiquewhite;
   background-color: #383938;
   padding-left: 30px;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 p{
   margin-left: 40px ;
@@ -257,7 +256,14 @@ p{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-top: 8%;
 }
-.lingtext{
+
+.textling{
   width: 50%;
+}
+
+.couvrebol{
+  margin-top: 8%;
+  margin-right: 8%;
 }
