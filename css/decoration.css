@@ -36,7 +36,7 @@ ul {
   }
 
   .active {
-  background-color: #5ea4b4;
+  background-color: #79A1B4;
   color: white;
 }
 
@@ -76,7 +76,10 @@ color: antiquewhite;
 h1{
   font-size: 50px;
   font-weight: bolder;
+  padding-left: 20px;
+
   }
+
 p{
   font-size: larger;
   margin: 0 40px 20px 40px;

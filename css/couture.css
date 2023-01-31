@@ -60,7 +60,7 @@ ul {
 }
 
 .active {
-  background-color: #86ac71;
+  background-color: #D1D79E;
   color: white;
 }
 
@@ -72,6 +72,7 @@ ul {
 
 /* titre  */
 #container1{
+    margin-left: 10%;
     margin-top: 15%;
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: antiquewhite;
@@ -83,6 +84,7 @@ h1{
   font-size: 50px;
   font-weight: bolder;
   padding-left: 35px;
+  
   
   }
 

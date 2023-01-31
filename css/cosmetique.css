@@ -1,5 +1,8 @@
 body {
   font: 400 20px/1.8 "Lato", sans-serif;
+  background-image: url(../image/imacosm3.jpg), url(../image/fonddec.jpg);
+  background-repeat: no-repeat, repeat;
+  background-size:contain;
 }
 #connect{
   display: flex;
@@ -30,25 +33,72 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: white;
+  color: black;
+}
+
+/* menu vertical */
+.vertical-menu {
+  width: 738px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  margin-left: 417px;
+  padding: 2px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.active {
+  background-color: #E5C379;
+  color: white;
+}
+
+/* lien du menu déroulant smooth scroll*/
+#section1, #section2, #section3, #section4{
+  height: 600px;
 }
 
 #titre{
-    text-align: center;
-    font-style: oblique;
-    background-color: #83847e;
-    color: rgb(39, 42, 33);
-    height: 80px;
-    width:  550px;
-    border-radius: 12px;
-    margin: 40px;
-    margin-left: 50%;
-    padding-bottom: 30px;
-    border: solid;
-    font-size: 20px;
+  font-style: oblique;
+  margin-left: 10%;
+  margin-bottom: 16%;
+  margin-top: 14%;
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: antiquewhite;
+  }
+  
+  h1{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-left: 20px;
     }
+  p{
+    font-size: larger;
+    margin: 0 40px 20px 40px;
+  }
+  
+  
+  #image{
+    display: flex;
+    flex-direction: row; 
+    justify-content:space-around; 
+}
 
+h2{
+  font-size: 35px; 
+  color: antiquewhite;
+  background-color: #383938;
+  padding-left: 30px;
+}
 img{
-    width: 650px;
-    height: 350px;
+  border-radius: 8px
 }
