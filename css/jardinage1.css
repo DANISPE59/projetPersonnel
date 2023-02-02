@@ -1,8 +1,6 @@
 body{
     font: 400 20px/1.8 "Lato", sans-serif;
-    background-image: url(../image/pivoine.JPG), url(../image/fonddec.jpg);
-    background-repeat: no-repeat, repeat;
-    background-size: contain;
+    background-color: rgb(213, 246, 172);
     }
 #connect{
         display: flex;
@@ -50,9 +48,28 @@ body{
     color: antiquewhite;
 }
 
+#photo {
+    width: auto;
+    height: 500px;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin-top: 2%;
+}
+
+@keyframes example {
+    0%   {background-image: url(../image/pivoine.JPG);
+        background-size: cover;}
+    25%  {background-image: url(../image/hepatique.jpg);
+        background-size: cover;}
+    50%  {background-image: url(../image/doronic.jpg);
+        background-size: cover;}
+    100% {background-image: url(../image/anemone.jpg);
+        background-size: cover;}
+}
+
 h1{
     font-size: 50px;
     font-weight: bolder;
     padding-left: 20px;
 }
-
