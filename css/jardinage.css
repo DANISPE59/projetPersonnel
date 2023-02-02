@@ -43,12 +43,19 @@ body{
 #titre{
     font-style: oblique;
     width: 350px;
-    margin-left: 10%;
     margin-bottom: 16%;
     margin-top: 28%;
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: antiquewhite;
+    position: relative;
+    animation: mymove 1s;
+    animation-timing-function: linear;
 }
+@keyframes mymove {
+    0% {left: -700px;}
+    100% {left: 5px;}
+}
+
 
 h1{
     font-size: 50px;
