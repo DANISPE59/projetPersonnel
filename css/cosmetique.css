@@ -74,6 +74,7 @@ li a:hover {
   margin-top: 14%;
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: antiquewhite;
+  width: 900px;
   }
   
   h1{

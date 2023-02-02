@@ -34,8 +34,14 @@ body {
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: white;
+    color: black;
   }
+
+  .active {
+  background-color: #B5875E;
+  color: white;
+}
 
 #titre{
     text-align: center;

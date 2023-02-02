@@ -70,12 +70,13 @@ ul {
 }
 
 
-/* titre  */
-#container1{
+
+#titre{
     margin-left: 10%;
     margin-top: 15%;
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: antiquewhite;
+    width: 700px;
     
 }
 
@@ -83,7 +84,7 @@ h1{
   font-style: oblique;  
   font-size: 50px;
   font-weight: bolder;
-  padding-left: 35px;
+  padding-left: 30px;
   
   
   }

@@ -1,0 +1,80 @@
+body{
+    font: 400 20px/1.8 "Lato", sans-serif;
+    background-image: url(../image/pivoine.JPG), url(../image/fonddec.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    }
+#connect{
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-end;
+        font-size: 18px;
+        padding-bottom: 1%;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #383938;
+        font-size: 20px;
+    }  
+    li {
+        float: left;
+    } 
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: white;
+        color: black;
+    }
+
+    .active {
+    background-color: #FE82B1;
+    color: white;
+    }
+
+#titre{
+    font-style: oblique;
+    width: 350px;
+    margin-left: 10%;
+    margin-bottom: 16%;
+    margin-top: 28%;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: antiquewhite;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-left: 20px;
+
+    }
+
+p{
+    font-size: larger;
+    margin: 0 40px 20px 40px;
+}
+
+
+#image{
+    display: flex;
+    flex-direction: row; 
+    justify-content:space-around; 
+}
+
+h2{
+    font-size: 35px; 
+    color: antiquewhite;
+    background-color: #383938;
+    padding-left: 30px;
+}
+img{
+    border-radius: 8px
+}
