@@ -2,7 +2,7 @@ body{
     font: 400 20px/1.8 "Lato", sans-serif;
     background-image: url(../image/pivoine.JPG), url(../image/fonddec.jpg);
     background-repeat: no-repeat, repeat;
-    background-size: cover;
+    background-size: contain;
     }
 #connect{
         display: flex;
