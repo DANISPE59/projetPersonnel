@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content:flex-end;
-  font-size: 18px;
+  font-size: 1.5vw;
   padding-bottom: 1%;
 }
 
@@ -18,7 +18,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #383938;
-    font-size: 20px;
+    font-size: 1.5vw;
   }
   
   li {
@@ -41,16 +41,17 @@ ul {
 
 /* menu vertical */
 .vertical-menu {
-  width: 400px;
+  width:28vw;
   display: flex;
   flex-direction: column;
   justify-content: left;
+  font-size: 1.6vw;
 }
 
 .vertical-menu a {
   background-color: #eee;
   color: black;
-  margin-left: 96px;
+  margin-left: 7.2vw;
   padding: 2px;
   text-decoration: none;
 }
@@ -73,7 +74,7 @@ ul {
     margin-top: 15%;
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: antiquewhite;
-    width: 700px;
+    width: 50vw;
     position: relative;
     animation: mymove 1s;
     animation-timing-function: linear;
@@ -85,11 +86,9 @@ ul {
 
 h1{
   font-style: oblique;  
-  font-size: 50px;
+  font-size: 4vw;
   font-weight: bolder;
-  padding-left: 30px;
-  
-  
+
   }
 
 
