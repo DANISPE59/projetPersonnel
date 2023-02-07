@@ -67,14 +67,14 @@ ul {
 
 /* lien du menu déroulant smooth scroll*/
 #section1, #section2, #section3, #section4{
-  height: 600px;
+  height: 42vw;
 }
 
 #titre{
     margin-top: 15%;
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: antiquewhite;
-    width: 50vw;
+    width: 60vw;
     position: relative;
     animation: mymove 1s;
     animation-timing-function: linear;
@@ -209,7 +209,7 @@ img {
 }
 
 h2{
-  font-size: 35px; 
+  font-size: 2.8vw; 
   color: antiquewhite;
   background-color: #383938;
   padding-left: 30px;
@@ -217,7 +217,7 @@ h2{
 }
 p{
   margin-left: 40px ;
-  font-size: 20px;
+  font-size: 1.7vw;
   text-align: justify;
 }
 
@@ -231,8 +231,8 @@ p{
 /*flip box*/
 .flip-box {
   background-color: transparent;
-  width: 400px;
-  height: 250px;
+  width: 30vw;
+  height: 19vw;
   border: 1px solid #f1f1f1;
   perspective: 1000px;
   
