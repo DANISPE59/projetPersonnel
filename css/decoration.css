@@ -72,7 +72,7 @@ ul {
   color: antiquewhite;
   width: 700px;
   position: relative;
-  animation: mymove 1s;
+  animation: mymove 1s; /* TITRE qui arrive de droite*/
   animation-timing-function: linear;
 }
 @keyframes mymove {
@@ -84,7 +84,6 @@ h1{
   font-size: 50px;
   font-weight: bolder;
   padding-left: 20px;
-
   }
 
 p{
@@ -108,8 +107,6 @@ h2{
 img{
   border-radius: 8px
 }
-
-
 
 /*défilé d'images de couronnes*/
 * {box-sizing: border-box;}
@@ -170,3 +167,21 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+
+
+/* ZOOM jardiniere */
+* {
+  box-sizing: border-box;
+}
+
+#im2{
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+  }
+  
+  #im2:hover {
+    -ms-transform: scale(1.7); /* IE 9 */
+    -webkit-transform: scale(1.7); /* Safari 3-8 */
+    transform: scale(1.7); 
+  }
