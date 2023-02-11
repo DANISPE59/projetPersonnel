@@ -86,5 +86,13 @@ body{
         text-decoration: none;
         }
     
-    
+    /* FOOTER */
+.coordonnee {
+    background-color: #383938;
+    width: 100%;
+    height: 200hv;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
 
