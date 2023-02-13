@@ -1,5 +1,5 @@
 body {
-    background-image: url(../image/fondblanc.jpg);
+    background-image: url(../image/imaacc.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font: 400 20px/1.8 "Lato", sans-serif;
@@ -39,14 +39,15 @@ body {
   }
 
   .active {
-  background-color: #B5875E;
+  background-color: #DED6BF
+  ;
   color: white;
 }
 
 #titre{
     text-align: center;
     font-style: oblique;
-    background-color: rgb(231, 130, 155);
+    background-color: #8CAAC4;
     color: rgb(45, 43, 44);
     height: 200px;
     width:  550px;
