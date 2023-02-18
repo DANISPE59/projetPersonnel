@@ -39,6 +39,13 @@ li a:hover .dropdown:hover .dropbtn{
 
 li.dropdown {
   display: inline-block;
+  background-color: #E5C379;
+  color: white;
+}
+li.dropdown>a::after{
+  content: " ▼ ";
+  font-size: 1.2vw;
+
 }
 .dropdown-content {
   display: none;
@@ -65,34 +72,9 @@ li.dropdown {
   display: block;
 }
 
-/* menu vertical
-.vertical-menu {
-  width: 738px;
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-}
-
-.vertical-menu a {
-  background-color: #eee;
-  color: black;
-  margin-left: 417px;
-  padding: 2px;
-  text-decoration: none;
-}
-
-.vertical-menu a:hover {
-  background-color: #ccc;
-} */
-
-/* .active {
-  background-color: #E5C379;
-  color: white;
-} */
-
 /* lien du menu déroulant smooth scroll*/
 #section1, #section2, #section3, #section4{
-  height: 700px;
+  height: 650px;
 }
 
 #titre{
