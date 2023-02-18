@@ -1,5 +1,5 @@
 body {
-  font: 400 20px/1.8 "Lato", sans-serif;
+  font: 400 1.5vw/1.8 "Lato", sans-serif;
   background-image: url(../image/imacosm3.jpg), url(../image/fonddec.jpg);
   background-repeat: no-repeat, repeat;
   background-size:contain;
@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content:flex-end;
-  font-size: 18px;
+  font-size: 1.5vw;
   padding-bottom: 1%;
 }
 ul {
@@ -17,7 +17,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #383938;
-  font-size: 20px;
+  font-size: 1.5vw;
 }
 
 li {
@@ -28,7 +28,7 @@ li a, .dropbtn {
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1.2vw 1.2vw;
   text-decoration: none;
 }
 
@@ -51,14 +51,14 @@ li.dropdown>a::after{
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /* min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
   z-index: 1;
 }
 
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 0.7vw 0.7vw;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -74,33 +74,37 @@ li.dropdown>a::after{
 
 /* lien du menu déroulant smooth scroll*/
 #section1, #section2, #section3, #section4{
-  height: 650px;
+  height: 42vw;
+}
+#section1{
+  margin-top: 22vw;
+}
+#section2{
+  margin-top: 10vw;
 }
 
 #titre{
   font-style: oblique;
-  margin-bottom: 16%;
-  margin-top: 14%;
+  margin-top: 15%;
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: antiquewhite;
-  width: 900px;
+  width: 60vw;
   position: relative;
   animation: mymove 1s;
   animation-timing-function: linear;
 }
 @keyframes mymove {
-  0% {left: -700px;}
-  100% {left: 5px;}
+  0% {left: -50vw;}
+  100% {left: 0.2vw;}
 }
   
   h1{
-    font-size: 50px;
+    font-size: 4vw;
     font-weight: bolder;
-    padding-left: 20px;
     }
   p{
     font-size: larger;
-    margin: 0 40px 20px 40px;
+    margin: 0vw 3vw 1.7vw 3vw;
   }
   
   
@@ -111,21 +115,21 @@ li.dropdown>a::after{
 }
 
 h2{
-  font-size: 35px; 
+  font-size: 2.2vw; 
   color: antiquewhite;
   background-color: #383938;
-  padding-left: 30px;
+  padding-left: 2vw;
 }
 img{
-  border-radius: 8px
+  border-radius: 0.9vw;
 }
 
 /* FOOTER */
 .coordonnee {
   background-color: #383938;
   width: 100%;
-  height: 200hv;
-  font-size: 15px;
+  height: 5vh;
+  font-size: 1.4vw;
   text-align: center;
   color: white;
 }
