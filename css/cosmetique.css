@@ -10,7 +10,8 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #383938;
+  /* Barrede menu encadrer gris */
+  /* background-color: #383938; */
   font-size: 1.5vw;
 }
 
@@ -18,14 +19,24 @@ li {
   float: left;
 }
 
-li a, .dropbtn {
+li a{
   display: inline-block;
   color: white;
   text-align: center;
   padding: 1.2vw 1.2vw;
   text-decoration: none;
 }
+li a:hover {
+  color: #E5C379;
+}
 
+.dropbtn {
+  display: inline-block;
+  color: #E5C379;
+  text-align: center;
+  padding: 1.2vw 1.2vw;
+  text-decoration: none;
+}
 li a:hover .dropdown:hover .dropbtn{
   background-color: white;
   color: black;
@@ -33,7 +44,6 @@ li a:hover .dropdown:hover .dropbtn{
 
 li.dropdown {
   display: inline-block;
-  background-color: #E5C379;
   color: white;
 }
 li.dropdown>a::after{
@@ -59,13 +69,16 @@ li.dropdown>a::after{
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
+  background-color: #dfdddd;
+  color: black;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
+.seconnecter{
+  margin-left: 10vw;
+}
 /* lien du menu déroulant smooth scroll*/
 #section1, #section2, #section3, #section4{
   height: 42vw;

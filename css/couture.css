@@ -53,7 +53,7 @@ li.dropdown>a::after{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #D1D79E;
+  background-color: #f9f9f9;
   /* min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
   z-index: 1;
@@ -68,14 +68,16 @@ li.dropdown>a::after{
 }
 
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
+  background-color: #dfdddd;
   color: black;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
+.seconnecter{
+  margin-left: 10vw;
+}
 
 /* lien du menu déroulant smooth scroll*/
 #section1, #section2, #section3, #section4{

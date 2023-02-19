@@ -1,6 +1,6 @@
 body{
-    font: 400 20px/1.8 "Lato", sans-serif;
-    background-color: rgb(213, 246, 172);
+    font: 400 1.5vw/1.8 "Lato", sans-serif;
+    background-color: rgb(232, 250, 210);
     }
 
     ul {
@@ -8,8 +8,8 @@ body{
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #383938;
-        font-size: 20px;
+        /* background-color: #383938; */
+        font-size: 1.5vw;
     }  
     li {
         float: left;
@@ -17,21 +17,22 @@ body{
 
     li a {
         display: block;
-        color: white;
+        color: black; /*couleur menu*/
         text-align: center;
-        padding: 14px 16px;
+        padding: 1.2vw 1.2vw;
         text-decoration: none;
     }
     li a:hover {
-        background-color: white;
-        color: black;
+        color: #1f7424;
     }
 
 .active {
-    background-color: #1f7424;
-    color: white;
+    color: #1f7424;
     }
-
+    
+.seconnecter{
+    margin-left: 10vw;
+}
     .container {
         position: relative;
     }
