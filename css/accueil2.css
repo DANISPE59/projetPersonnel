@@ -3,7 +3,7 @@ body {
   /* background-color : #b6b6ac ; */
   font-size: 25px;
   margin:10px;
-  font: 400 20px/1.8 "Lato", sans-serif;
+  font: 400 1.5vw/1.8 "Lato", sans-serif;
 }
 
 /* #connect{
@@ -42,12 +42,11 @@ li a {
 }
 
 li a:hover {
-  background-color: white;
-  color: black;
+  color: #B27F84;
 }
 
 .active {
-  background-color: #B27F84;
+  color: #B27F84;
 }
 
 .seconnecter{
