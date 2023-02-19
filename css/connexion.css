@@ -2,13 +2,6 @@ body{
     font: 400 20px/1.8 "Lato", sans-serif;
     background-color:#f0f6f8
     }
-
-    #connect{
-        display: flex;
-        flex-direction: row;
-        justify-content:flex-end;
-        font-size: 18px;
-    }
     
     ul {
         list-style-type: none;
