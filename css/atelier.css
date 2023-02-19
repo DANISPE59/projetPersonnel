@@ -35,15 +35,11 @@ body {
   }
   
   li a:hover {
-    background-color: white;
-    color: black;
-    border-radius: 50%;
+    color: #2F6D52;
   }
 
   .active {
-  background-color: #2F6D52;
-  border-radius: 50%;
-  color: white;
+  color: #2F6D52;
 }
 .seconnecter{
   margin-left: 10vw;
