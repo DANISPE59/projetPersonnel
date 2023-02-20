@@ -39,11 +39,10 @@ body{
 
 #titre{
     position: absolute;
-    top: 55%;
+    top: 48%;
     left: 20px;
     font-style: oblique;
     width: 350px;
-    margin-bottom: 16%;
     margin-top: 2%;
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: antiquewhite;

@@ -89,7 +89,7 @@ li.dropdown>a::after{
 }
 
 #titre{
-    margin-top: 15%;
+    margin-top: 24%;
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: antiquewhite;
     width: 60vw;

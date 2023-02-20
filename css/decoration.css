@@ -77,15 +77,17 @@ ul {
   .seconnecter{
     margin-left: 10vw;
   }
-    
 #section1, #section2, #section3, #section4{
   height: 42vw;
+}
+#section1{
+  margin-top: 24vw;
 }
 
 #titre{
   font-style: oblique;
   margin-bottom: 16%;
-  margin-top: 14%;
+  margin-top: 24%;
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: antiquewhite;
   width: 60vw;
