@@ -1,16 +1,23 @@
 body{
   font: 400 1.5vw/1.8 "Lato", sans-serif;
-  background-image: url(../image/fondeco1.jpg), url(../image/fonddec.jpg);
-  background-repeat: no-repeat, repeat;
-  background-size: contain;
-  }
-  
+    }
+/* fond ecran responsive */
+#fondecran {
+  /* Fixe l'image en haut à gauche de 8vw de la page */
+  position: absolute; 
+  top: 8vw; 
+  left: 0; 
+  /* Préserve le ratio de l'image */
+  min-width: 100%;
+  min-height: 100%;
+}
+
 ul {
+    position: relative;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /* background-color: #383938; */
     font-size: 1.5vw;
   }  
   li {
@@ -19,7 +26,7 @@ ul {
 
   li a{
     display: inline-block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 1.2vw 1.2vw;
     text-decoration: none;
@@ -52,7 +59,7 @@ ul {
   }
   .dropdown-content {
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: #f9f9f9;
     /* min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */

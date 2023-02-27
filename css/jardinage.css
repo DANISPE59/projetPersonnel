@@ -16,7 +16,7 @@ body{
     } 
 
     li a {
-        display: block;
+        display: inline-block;
         color: black; /*couleur menu*/
         text-align: center;
         padding: 1.2vw 1.2vw;
@@ -87,7 +87,6 @@ h2{
 }
     
     body {
-    margin: 0;
     font-family: Arial;
     }
     

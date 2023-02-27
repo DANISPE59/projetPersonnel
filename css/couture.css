@@ -1,15 +1,28 @@
 body {
       font: 400 1.5vw/1.8 "Lato", sans-serif;
-      background-image: url(../image/fondcout2.jpg), url(../image/fondcout3.jpg);
+      /* background-image: url(../image/fondcout2.jpg), url(../image/fondcout3.jpg);
       background-repeat: no-repeat, repeat;
-      background-size:contain;
+      background-size:contain; */
+}
+
+/* fond ecran responsive */
+#fondecran {
+  /* Fixe l'image en haut à gauche de 8vw de la page */
+  position: absolute; 
+  top: 8vw; 
+  left: 0; 
+  /* Préserve le ratio de l'image */
+  min-width: 100%;
+  min-height: 100%;
 }
 
 ul {
+  position: relative;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  /* background-color: #383938; */
   font-size: 1.5vw;
 }
 
@@ -19,7 +32,7 @@ li {
 
 li a{
   display: inline-block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 1.2vw 1.2vw;
   text-decoration: none;
@@ -43,7 +56,7 @@ li a:hover .dropdown:hover .dropbtn{
 li.dropdown {
   display: inline-block;
   /* background-color: #D1D79E; */
-  color: #D1D79E;
+  color: black;
 }
 li.dropdown>a::after{
   content: " ▼ ";
@@ -52,7 +65,7 @@ li.dropdown>a::after{
 }
 .dropdown-content {
   display: none;
-  position: absolute;
+  position:fixed;
   background-color: #f9f9f9;
   /* min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
@@ -106,7 +119,6 @@ h1{
   font-style: oblique;  
   font-size: 4vw;
   font-weight: bolder;
-
   }
 
 
@@ -227,6 +239,7 @@ img {
 }
 
 h2{
+  position: relative;
   font-size: 2.8vw; 
   color: antiquewhite;
   background-color: #383938;

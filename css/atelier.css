@@ -5,7 +5,7 @@ body {
   /* fond ecran responsive */
   #fondecran {
     /* Fixe l'image en haut à gauche de 8vw de la page */
-    position: fixed; 
+    position: absolute; 
     top: 8vw; 
     left: 0; 
     /* Préserve le ratio de l'image */
@@ -16,6 +16,8 @@ body {
 /* Barre de menu */
   ul {
     position: relative;
+    margin: 0;
+    padding: 0;
     list-style-type: none;
     overflow: hidden;
     /* background-color: #383938; */
@@ -27,7 +29,7 @@ body {
   }
   
   li a {
-    display: block;
+    display: inline-block;
     color: black;
     text-align: center;
     padding: 1.2vw 1.2vw;
