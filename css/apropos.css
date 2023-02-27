@@ -3,17 +3,9 @@ body {
   font: 400 1.5vw/1.8 "Lato", sans-serif;
   }
 
-  /* fond ecran responsive */
-#fondecran {
-  /* Fixe l'image en haut à gauche de la page */
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-  /* Préserve le ratio de l'image */
-  min-width: 100%;
-  min-height: 100%;
+.logo{
+  font-family: cursive;
 }
-
   ul {
     position: relative;
     list-style-type: none;
