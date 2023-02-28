@@ -1,5 +1,4 @@
 body {
-  background-color: rgb(220, 219, 218);  
   font: 400 1.5vw/1.8 "Lato", sans-serif;
   }
 
@@ -61,7 +60,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #cccfcc;
+  background-color: #eef0ee;
   bottom: 2vw; /*coller à pdp2*/
   width: 100%;
   font-size: 1.2vw;
