@@ -3,10 +3,10 @@ body {
   font: 400 1.5vw/1.8 "Lato", sans-serif;
   }
 
-.logo{
-  font-family: cursive;
-}
   ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
     position: relative;
     margin: 0;
     padding: 0;
@@ -18,12 +18,13 @@ body {
   
   li {
     float: left;
+
   }
   
   li a {
-    display: block;
+    display: inline-block;
     color: black;
-    text-align: center;
+    text-align:start;
     padding: 1.2vw 1.2vw;
     text-decoration: none;
   }
@@ -31,13 +32,15 @@ body {
   li a:hover {
     color: rgb(137, 104, 60);
   }
-
   .active {
   color: rgb(137, 104, 60);
 }
-.seconnecter{
-  margin-left: 10vw;
-}
+
+/* .logo{
+  margin-left: 0;
+} */
+
+
 
 /* A REFAIRE ENLEVER ENCCARDER LIEN */
 /* .seconnecter a:hover {
