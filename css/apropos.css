@@ -1,5 +1,6 @@
 body {
   font: 400 1.5vw/1.8 "Lato", sans-serif;
+  background-color: #e0e3e0;
   }
 
   ul {
@@ -54,30 +55,41 @@ body {
 
 
 /* FOOTER */
-
-#coordonnée {
+.footer{
   position: absolute;
+  bottom: 0; left: 0;
+  width: 100%;
+}
+#coordonnée {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #eef0ee;
-  bottom: 2vw; /*coller à pdp2*/
+  background-color: #f7faf7;
   width: 100%;
   font-size: 1.2vw;
   text-align: justify;
   color: rgb(48, 47, 47);
 }
-.titcon p a{
+.titcon a{
   text-decoration: none;
   color: black;
 }
-.titcon p a:hover{
+.titcon a:hover{
   text-decoration: underline;
   color: black;
 }
 
+.compte a{
+  text-decoration: none;
+  color: black;
+}
+.compte a:hover{
+  text-decoration: underline;
+  color: black;
+}
 .pdp2 {
-  position:absolute;
+  position:relative;
   background-color: #383938;
   color: white;
   font-size: 1.1vw;

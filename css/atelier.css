@@ -8,9 +8,8 @@ body {
     position: absolute; 
     top: 8vw; 
     left: 0; 
-    /* Préserve le ratio de l'image */
-    min-width: 100%;
-    min-height: 100%;
+    width: 100%;
+    height: 80vh;
   }
 
 /* Barre de menu */
@@ -57,14 +56,50 @@ body {
   font-size: 2vw;
     }
 
-    /* FOOTER */
-.coordonnee {
-  position:absolute;
+/* FOOTER */
+.footer{
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 100%;
+}
+#coordonnée {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #f7faf7;
+  width: 100%;
+  font-size: 1.2vw;
+  text-align: justify;
+  color: rgb(48, 47, 47);
+}
+.titcon  a{
+  text-decoration: none;
+  color: black;
+}
+.titcon  a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+.compte  a{
+  text-decoration: none;
+  color: black;
+}
+.compte  a:hover{
+  text-decoration: underline;
+  color: black;
+}
+.pdp2 {
+  position:relative;
   background-color: #383938;
   color: white;
-  font-size: 1.4vw;
+  font-size: 1.1vw;
   text-align: center;
   bottom:0;  /* on le colle en bas */
   width:100%;
-  height:3vw;   /* Hauteur du pied de page */
+  height:2vw;   /* Hauteur du pied de page */
+}
+.ital{
+  font-style: italic;
 }
