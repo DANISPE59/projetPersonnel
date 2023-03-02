@@ -17,6 +17,9 @@ body {
 }
 
 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
   position: relative;
   list-style-type: none;
   margin: 0;
@@ -32,18 +35,18 @@ li {
 
 li a{
   display: inline-block;
-  color: black;
-  text-align: center;
+  color: rgb(46, 45, 45);
+  text-align: start;
   padding: 1.2vw 1.2vw;
   text-decoration: none;
 }
 li a:hover {
-  color: #D1D79E;
+  color: #7c814f;
 }
 
 .dropbtn {
   display: inline-block;
-  color: #D1D79E;
+  color: #7c814f;
   text-align: center;
   padding: 1.2vw 1.2vw;
   text-decoration: none;
