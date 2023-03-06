@@ -62,7 +62,7 @@ li.dropdown {
   color: black;
 }
 li.dropdown>a::after{
-  content: " ▼ ";
+  content: "▼ ";
   font-size: 1.2vw;
 
 }
